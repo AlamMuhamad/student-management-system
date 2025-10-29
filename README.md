@@ -1,16 +1,27 @@
-The Employee Management System is a simple Spring Boot CRUD application that allows you to manage employee records efficiently.
-You can create, read, update, and delete employee details through a user-friendly interface or REST API.
+The Student Management System is a full-featured Spring Boot CRUD application that allows you to manage student data efficiently.
+It supports basic operations like adding, viewing, updating, and deleting student records — all built with modern Spring Boot architecture.
 
 🧩 Features
 
-➕ Add new employees
+➕ Add new students
 
-📄 View employee details
+📄 View all student records
 
-✏️ Update employee information
+✏️ Update student details
 
-❌ Delete employee records
+❌ Delete student records
 
-💾 Integrated with a relational database (MySQL / H2)
+💾 Integrated with MySQL database
 
-🧠 Built using Spring Boot and Spring Data JPA
+🧠 Uses Spring Boot and JPA (Hibernate)
+
+🧰 RESTful API structure
+
+🛠️ Tech Stack
+Layer	Technology
+Backend	Spring Boot, Spring MVC
+Database	MySQL / H2
+ORM	Spring Data JPA (Hibernate)
+Build Tool	Maven
+Language	Java 17+
+Frontend (optional)	Thymeleaf / React
